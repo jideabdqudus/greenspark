@@ -2,9 +2,9 @@
 
 ![The final look](public/assets/images/final.png)
 
-## URL:
+## URL
 
-[Vercel URL](https://greenspark-sigma.vercel.app/)
+[Visit Vercel URL](https://greenspark-sigma.vercel.app/)
 
 - Next JS application for the Greenspark assesment:
 
