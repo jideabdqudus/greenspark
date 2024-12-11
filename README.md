@@ -1,6 +1,6 @@
 # Greenspark Product Assignment
 
-![The final look](assets/images/final.png)
+![The final look](public/assets/images/final.png)
 
 ## URL:
 
