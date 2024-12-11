@@ -12,6 +12,13 @@ const config: StorybookConfig = {
     name: '@storybook/nextjs',
     options: {},
   },
+  docs: {
+    autodocs: true,
+  },
+  typescript: {
+    check: true,
+    reactDocgen: 'react-docgen-typescript',
+  },
   staticDirs: ['../public'],
 }
 export default config

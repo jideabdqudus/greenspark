@@ -1,5 +1,7 @@
 # Greenspark Product Assignment
 
+![The final look](/assets/images/final.png)
+
 - Next JS application for the Greenspark assesment:
 
 Why NextJS?

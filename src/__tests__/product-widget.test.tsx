@@ -1,11 +1,12 @@
 import { render, screen } from '@testing-library/react'
 import { ProductWidget } from '@/components/product-widget'
 import { WidgetProvider } from '@/contexts/widget-context'
+import { ProductWidget as ProductWidgetType } from '@/lib/types'
 
 describe('ProductWidget', () => {
-  const mockWidget = {
+  const mockWidget: ProductWidgetType = {
     id: 1,
-    type: 'carbon',
+    type: 'carbon', // Ensure this matches one of the WidgetType values
     amount: 2,
     action: 'offsets',
     selectedColor: 'green',
@@ -66,7 +67,7 @@ describe('ProductWidget', () => {
     })
 
     it('renders plastic widget correctly', () => {
-      const plasticWidget = { ...mockWidget, type: 'plastic', amount: 10 }
+      const plasticWidget: ProductWidgetType = { ...mockWidget, type: 'plastic', amount: 10 }
       render(
         <WidgetProvider>
           <ProductWidget widget={plasticWidget} />
@@ -76,7 +77,7 @@ describe('ProductWidget', () => {
     })
 
     it('renders trees widget correctly', () => {
-      const treesWidget = { ...mockWidget, type: 'trees', amount: 5 }
+      const treesWidget: ProductWidgetType = { ...mockWidget, type: 'trees', amount: 5 }
       render(
         <WidgetProvider>
           <ProductWidget widget={treesWidget} />
