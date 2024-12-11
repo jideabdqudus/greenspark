@@ -1,6 +1,10 @@
 # Greenspark Product Assignment
 
-![The final look](/assets/images/final.png)
+![The final look](assets/images/final.png)
+
+## URL:
+
+[Vercel URL](https://greenspark-sigma.vercel.app/)
 
 - Next JS application for the Greenspark assesment:
 
